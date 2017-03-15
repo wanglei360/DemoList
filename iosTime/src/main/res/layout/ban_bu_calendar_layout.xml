@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:onClick="calendarBut"
+        android:text="伴读日历时间样式"
+        android:textColor="#000"
+        android:textSize="22sp" />
+
+    <com.yoland.adatepicker.bandu.TagCloudView
+        android:id="@+id/tag_cloud_view"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tcvItemBorderHorizontal="8dp"
+        app:tcvItemBorderVertical="10dp"
+        app:tcvBorder="8dp"
+        app:tcvBackground="@drawable/tag_item_nomal"
+        app:tcvTextColor="@color/green"
+        app:tcvCanTagClick="true"/>
+</LinearLayout>

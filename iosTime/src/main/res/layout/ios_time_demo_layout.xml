@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.yoland.adatepicker.ios.DatePicker
+        android:id="@+id/date_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取年月日" />
+
+    <Button
+        android:id="@+id/btn_get_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取年" />
+
+    <Button
+        android:id="@+id/btn_get_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取月" />
+
+    <Button
+        android:id="@+id/btn_get_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取日" />
+
+    <Button
+        android:id="@+id/btn_get_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取时间" />
+    <Button
+        android:id="@+id/btn_set_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置时间" />
+
+    <EditText
+        android:id="@+id/ed_set_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2016-7-5-11" />
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_show_split"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
